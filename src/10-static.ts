@@ -10,7 +10,10 @@ class MyMath {
   }
 }
 
-
+/**
+ * variables de tipo estaticos, pueden ser accesadas de
+ * la manera siguiente
+ */
 console.log('Math', Math.PI)
 console.log('MyMath', MyMath.PI)
 let numbers: number[] = [-1, -7 ,-8]
