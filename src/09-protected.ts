@@ -1,4 +1,4 @@
-export class Animal{
+export abstract class Animal{
   // protected restringe la modificacion de la propiedad
   // pero se hereda en los hijos(se pueden modificar
   // desde las clases hijas)
@@ -38,9 +38,9 @@ export class Dog extends Animal{
   }
 }
 
-const fifi = new Animal('fifi');
-fifi.move();
-console.log(fifi.greeting());
+// const fifi = new Animal('fifi');
+// fifi.move();
+// console.log(fifi.greeting());
 
 const cheis = new Dog('cheis', 'fran');
 cheis.woof(1);
